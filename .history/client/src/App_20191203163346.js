@@ -32,7 +32,7 @@ class App extends Component {
 
   saveChanges = gameId => {
     const game = this.state.games.find(el => el._id === gameId).teams;
-    const change = axios.post("/", { id: gameId, teams: game });
+    const change = axio.post("/", { id: gameId, teams: game });
     console.dir(change.data);
     // console.dir(` siemanko : ${game}`);
   };
