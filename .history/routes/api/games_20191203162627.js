@@ -6,7 +6,6 @@ const Game = require("../../models/game");
 router.get("/", (req, res) => {
   // console.log("odczyt");
   Game.find().then(games => res.json(games));
-  console.log(req);
 });
 
 router.post("/", (req, res) => {
