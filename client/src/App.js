@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    let gameData = await axios.get("/", {});
+    let gameData = await axios.get("/api/games", {});
     let games = gameData.data;
     // console.log(gameData.data);
     this.setState({ games: games });
@@ -32,7 +32,7 @@ class App extends Component {
 
   saveChanges = gameId => {
     const game = this.state.games.find(el => el._id === gameId).teams;
-    const change = axios.post("/", { id: gameId, teams: game });
+    const change = axios.post("/api/games", { id: gameId, teams: game });
     console.dir(change.data);
     // console.dir(` siemanko : ${game}`);
   };
