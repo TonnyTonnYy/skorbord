@@ -17,7 +17,7 @@ mongoose
   .then(() => console.log("Mongo connected"))
   .catch(err => console.log(err));
 
-app.use("/api/games", games);
+app.use("/", games);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
