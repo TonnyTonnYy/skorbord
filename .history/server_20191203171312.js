@@ -17,7 +17,7 @@ mongoose
   .then(() => console.log("Mongo connected"))
   .catch(err => console.log(err));
 
-app.use("/", games);
+app.use(proxy(["/api/games"], { target: "http://localhost:5000" }), games);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
