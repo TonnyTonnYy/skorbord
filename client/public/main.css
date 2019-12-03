@@ -1,0 +1,87 @@
+/* -----------------Main wrapper (main-bar) */
+.main-bar {
+  grid-row-start: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* -----------------Main left and right containers */
+.main-left {
+  grid-column-start: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-right {
+  grid-column-start: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-left-view,
+.main-right-view {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* -----------------Player view */
+.player {
+  min-height: 33.3%;
+  height: 33.3%;
+  min-width: 25%;
+  width: 25%;
+}
+
+.player-view {
+  height: 70%;
+  width: 70%;
+  border-radius: var(--player-radius);
+  font-size: var(--player-font-size);
+}
+
+.player-left {
+  background: var(--player-left-bg);
+}
+
+.player-right {
+  background: var(--player-right-bg);
+}
+
+/* ----------------- Input view */
+.input-wrapper {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  min-height: 50%;
+  height: 50%;
+  min-width: 33%;
+  width: 33%;
+}
+
+.input-view {
+  height: 65%;
+  width: 65%;
+  background: var(--input-bg);
+  border-radius: var(--player-radius);
+  font-size: var(--input-font-size);
+}
+
+.input-undo-box {
+  height: 15%;
+  width: 31%; /* 70 + 31 so the button wraps*/
+}
+
+.input-undo {
+  height: 90%;
+  width: 30%;
+  text-align: center;
+  background: var(--ui-bg);
+  border-radius: var(--player-radius);
+  font-size: var(--input-undo-font-size);
+}

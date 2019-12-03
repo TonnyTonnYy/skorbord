@@ -1,0 +1,86 @@
+:root {
+  /* font-family*/
+  --main-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-color */
+  --main-font: rgb(0, 0, 0);
+  --time-font: rgb(37, 211, 102);
+  --player-left-font: rgb(0, 0, 0);
+  --player-right-font: rgb(0, 0, 0);
+  --input-font: rgb(0, 0, 0);
+  /* font-size */
+  --team-name-font-size: 3vw;
+  --score-font-size: 5vw;
+  --time-font-size: 3.5vw;
+  --stats-font-size: 2.2vw;
+  --player-font-size: 3vw;
+  --input-font-size: 3vw;
+  --input-undo-font-size: 2.5vw;
+  --log-undo-font-size: 4vw;
+  --log-li-font-size: 1.11vw;
+  --game-list-font-size: 2vw;
+  --game-list-add-font-size: 1.5vw;
+  /* background-color */
+  --main-bg: #b4b4b4;
+  --ui-bg: rgb(255, 248, 220);
+  --foul-limit-bg: rgb(231, 27, 27);
+  --score-bg: rgb(240, 235, 235);
+  --time-bg: rgb(27, 30, 37);
+  --player-left-bg: rgb(35, 148, 50);
+  --player-right-bg: rgb(218, 99, 20);
+  --input-bg: rgb(173, 117, 117);
+  --log-list-bg: rgba(255, 248, 220, 0.445);
+  --box-score-bg: rgb(154, 168, 80);
+  --box-score-blur-bg: rgba(39, 37, 37, 0.274);
+  --box-score-list-even-bg: rgb(81, 137, 175);
+  --box-score-list-odd-bg: rgb(51, 100, 133);
+  --exit-bg: rgb(165, 65, 65);
+  /* border-radius*/
+  --ui-radius: 5%;
+  --player-radius: 10%;
+  --rect-radius: 1%;
+  /* sizes */
+  --score-size: 70%;
+  --player-size: 70%;
+  --input-size: 65%;
+}
+
+/* root container  */
+.container {
+  display: grid;
+  grid-template-rows: [score-bar] 2fr [main] 6fr [logs-bar] 2fr;
+  background: var(--main-bg);
+  font-family: var(--main-font-family);
+}
+
+.container-add-game {
+  display: grid;
+  grid-template-rows: [score-bar] 1fr [main] 9fr;
+  background: var(--main-bg);
+  font-family: var(--main-font-family);
+}
+
+/* HELPERS */
+
+/* reset default behaviour of element */
+.reset-default {
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+/* center items horizontally and vertically */
+.hv-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-c {
+  display: flex;
+  justify-content: center;
+}

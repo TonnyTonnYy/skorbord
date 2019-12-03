@@ -1,0 +1,51 @@
+/* ----------------- Main wrapper (logs-bar) */
+.logs-bar {
+  grid-row-start: logs-bar;
+  display: grid;
+  grid-template-columns: 5fr 2fr 5fr;
+}
+
+/* ----------------- Logs left and right containers*/
+.logs-left {
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+}
+
+.logs-right {
+  grid-column-start: 3;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+}
+
+/* ----------------- Logs list */
+.log-list-view {
+  overflow: auto;
+  height: 80%;
+  width: 80%;
+  background: var(--log-list-bg);
+  border-radius: var(--rect-radius);
+}
+
+.log-list {
+  height: 0px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.log-list > li {
+  margin-top: 4%;
+  text-align: center;
+  font-size: var(--log-li-font-size);
+}
+
+/* ----------------- Log undo button*/
+.log-undo {
+  height: 40%;
+  width: 50%;
+  text-align: center;
+  background: var(--ui-bg);
+  border-radius: var(--player-radius);
+  font-size: var(--log-undo-font-size);
+}
