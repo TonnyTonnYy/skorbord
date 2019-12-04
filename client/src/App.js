@@ -20,8 +20,8 @@ class App extends Component {
     };
   }
 
-  async componentDidMount() {
-    let gameData = await axios.get("/api/games", {});
+  componentDidMount() {
+    let gameData = axios.get("/api/games", {});
     let games = gameData.data;
     // console.log(gameData.data);
     this.setState({ games: games });
