@@ -6,7 +6,7 @@ import Stats from "./stats";
 
 class Scores extends Component {
   state = {
-    period: "1"
+    period: 1
   };
 
   updatePeriod = () => {
@@ -25,6 +25,8 @@ class Scores extends Component {
               handleClick={this.handleClick}
             />
             <Clock
+              time={this.props.time}
+              id={this.props.id}
               updatePeriod={this.updatePeriod}
               resetFouls={this.props.resetFouls}
             />

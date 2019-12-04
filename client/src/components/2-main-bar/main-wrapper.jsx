@@ -15,6 +15,8 @@ class Main extends Component {
             updateScore={this.props.updateScore}
             updatePlayer={this.props.updatePlayer}
             updateFouls={this.props.updateFouls}
+            id={this.props.id}
+            saveChanges={this.props.saveChanges}
           />
         ))}
       </React.Fragment>

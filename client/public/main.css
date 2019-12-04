@@ -10,12 +10,14 @@
   grid-column-start: 1;
   display: flex;
   flex-wrap: wrap;
+  border: 4px solid var(--title-bg);
 }
 
 .main-right {
   grid-column-start: 2;
   display: flex;
   flex-wrap: wrap;
+  border: 4px solid var(--title-bg);
 }
 
 .main-left-view,

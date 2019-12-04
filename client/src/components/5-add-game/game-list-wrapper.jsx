@@ -6,8 +6,8 @@ class Choose extends Component {
   render() {
     return (
       <div className="container-add-game wrapper">
-        <div className="wrapper hv-c">
-          <h1>Select a game</h1>
+        <div className="title-choose wrapper hv-c">
+          <h1 className="">Wybierz mecz</h1>
         </div>
         <div className="wrapper hv-c">
           <View

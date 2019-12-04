@@ -14,6 +14,7 @@ class Players extends Component {
       this.setState({ uiToggle: "inputs" });
     } else if (this.state.uiToggle === "inputs") {
       this.setState({ uiToggle: "players" });
+      this.props.saveChanges(this.props.id);
     }
   };
 
@@ -29,7 +30,7 @@ class Players extends Component {
           <div className={`main-${this.props.team}-view hv-c`}>
             {this.props.players.map(el => (
               <Player
-                key={el.num}
+                key={`${el.num}-${el.name}`}
                 num={el.num}
                 team={this.props.team}
                 toggleUI={this.toggleUI}

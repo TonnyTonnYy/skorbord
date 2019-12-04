@@ -3,6 +3,8 @@
   grid-row-start: logs-bar;
   display: grid;
   grid-template-columns: 5fr 2fr 5fr;
+  background: var(--title-bg);
+  border-top: 5px solid var(--title-choose-font);
 }
 
 /* ----------------- Logs left and right containers*/
@@ -10,12 +12,14 @@
   grid-column-start: 1;
   display: grid;
   grid-template-columns: 2fr 6fr;
+  /* border-right: 5px solid var(--ui-bg); */
 }
 
 .logs-right {
   grid-column-start: 3;
   display: grid;
   grid-template-columns: 6fr 2fr;
+  /* border-left: 5px solid var(--ui-bg); */
 }
 
 /* ----------------- Logs list */

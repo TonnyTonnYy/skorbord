@@ -10,7 +10,9 @@ router.get("/", (req, res) => {
 
 router.post("/", (req, res) => {
   const filter = { _id: req.body.id };
-  const update = { teams: req.body.teams };
+  const update = {
+    teams: req.body.teams
+  };
   console.log(req.body);
   Game.findOneAndUpdate(filter, update, {
     useFindAndModify: false

@@ -59,13 +59,40 @@ class Clock extends Component {
   };
 
   render() {
-    return (
-      <div className="time wrapper hv-c">
-        <div className="time-view hv-c" onClick={this.handleClick}>
-          {this.displayDate()}
+    if (
+      this.state.date <= new Date(5000) &&
+      this.state.date >= new Date(2000)
+    ) {
+      return (
+        <div className="time wrapper hv-c">
+          <div
+            className="time-view time-minute hv-c"
+            onClick={this.handleClick}
+          >
+            {this.displayDate()}
+          </div>
         </div>
-      </div>
-    );
+      );
+    } else if (this.state.date <= new Date(2000)) {
+      return (
+        <div className="time wrapper hv-c">
+          <div
+            className="time-view time-15-seconds hv-c"
+            onClick={this.handleClick}
+          >
+            {this.displayDate()}
+          </div>
+        </div>
+      );
+    } else {
+      return (
+        <div className="time wrapper hv-c">
+          <div className="time-view hv-c" onClick={this.handleClick}>
+            {this.displayDate()}
+          </div>
+        </div>
+      );
+    }
   }
 }
 

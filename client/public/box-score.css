@@ -17,7 +17,8 @@
   width: 80%;
   position: relative;
   top: 9%;
-  background: var(--box-score-bg);
+  background: var(--main-bg);
+  border: 10px solid var(--title-bg);
 }
 
 .box-score-list {
@@ -49,7 +50,16 @@
   height: 6%;
   width: 4%;
   background: var(--exit-bg);
+  color: var(--ui-bg);
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.exit-center {
+  height: 6%;
+  width: 4%;
+  position: absolute;
+  right: 48%;
+  top: -8%;
 }

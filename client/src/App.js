@@ -6,6 +6,7 @@ import Main from "./components/2-main-bar/main-wrapper";
 import Logs from "./components/3-logs-bar/logs-bar-wrapper";
 import BoxScore from "./components/4-box-score/box-score";
 import Choose from "./components/5-add-game/game-list-wrapper";
+import Login from "./components/6-login/login";
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +17,9 @@ class App extends Component {
       games: [],
       chooseToggle: true,
       activeGame: 0,
-      statsToggle: "none"
+      statsToggle: "none",
+      password: "root",
+      logged: false
     };
   }
 
@@ -32,9 +35,10 @@ class App extends Component {
 
   saveChanges = gameId => {
     const game = this.state.games.find(el => el._id === gameId).teams;
-    const change = axios.post("/api/games", { id: gameId, teams: game });
-    console.dir(change.data);
-    // console.dir(` siemanko : ${game}`);
+    axios.post("/api/games", {
+      id: gameId,
+      teams: game
+    });
   };
 
   /* input button clicked */
@@ -194,7 +198,6 @@ class App extends Component {
 
   chooseGame = num => {
     this.setState({ activeGame: num });
-    console.log(this.state.games[this.state.activeGame].teams);
   };
 
   onExit = () => {
@@ -202,14 +205,33 @@ class App extends Component {
     this.saveChanges(this.state.games[this.state.activeGame]._id);
   };
 
+  handleLogin = e => {
+    e.preventDefault();
+    // console.dir(e.target[0].value);
+    if (this.state.password === e.target[0].value) {
+      this.setState({ logged: true });
+    }
+  };
+
   render() {
     if (this.state.chooseToggle === true) {
       return (
-        <Choose
-          games={this.state.games}
-          toggleChoose={this.toggleChoose}
-          chooseGame={this.chooseGame}
-        />
+        <React.Fragment>
+          {(() => {
+            if (!this.state.logged)
+              return <Login handleLogin={this.handleLogin} />;
+          })()}
+          {(() => {
+            if (this.state.logged)
+              return (
+                <Choose
+                  games={this.state.games}
+                  toggleChoose={this.toggleChoose}
+                  chooseGame={this.chooseGame}
+                />
+              );
+          })()}
+        </React.Fragment>
       );
     } else if (this.state.chooseToggle === false) {
       return (
@@ -221,7 +243,7 @@ class App extends Component {
                 this.saveChanges(this.state.games[this.state.activeGame]._id)
               }
             >
-              <div className="save hv-c">S</div>
+              <div className="save hv-c"> zapisz</div>
             </div>
             <div className="w50-wrapper hv-c" onClick={this.onExit}>
               <div className="quit hv-c">X</div>
@@ -244,6 +266,8 @@ class App extends Component {
           <div className="main-bar wrapper">
             <Main
               data={this.state.games[this.state.activeGame].teams}
+              id={this.state.games[this.state.activeGame]._id}
+              saveChanges={this.saveChanges}
               updateHistory={this.updateHistory}
               updateScore={this.updateScore}
               updatePlayer={this.updatePlayer}
@@ -257,6 +281,8 @@ class App extends Component {
               updatePlayer={this.updatePlayer}
               popHistory={this.popHistory}
               displayReversed={this.displayReversed}
+              id={this.state.games[this.state.activeGame]._id}
+              saveChanges={this.saveChanges}
             />
           </div>
         </div>

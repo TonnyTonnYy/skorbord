@@ -16,6 +16,10 @@ class BoxScore extends Component {
             <div className="exit hv-c" onClick={this.props.toggleStats}>
               X
             </div>
+            <div
+              className="exit-center hv-c"
+              onClick={this.props.toggleStats}
+            ></div>
           </div>
         </div>
       );

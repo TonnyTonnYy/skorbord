@@ -9,6 +9,7 @@ class Logs extends Component {
       this.props.updateScore(side, history[0].input, "-");
       this.props.updatePlayer(side, history[0].input, history[0].num, "-");
       this.props.popHistory(side);
+      this.props.saveChanges(this.props.id);
     }
   };
 

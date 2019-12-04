@@ -8,6 +8,7 @@ class View extends Component {
       <div className="game-list-view" id="game-box">
         {this.props.games.map(el => (
           <Element
+            key={`${el._id}-${el.id}`}
             game={el}
             toggleChoose={this.props.toggleChoose}
             chooseGame={this.props.chooseGame}

@@ -1,6 +1,12 @@
+.title-choose {
+  color: var(--title-choose-font);
+  background: var(--title-bg);
+  border-bottom: 5px solid var(--title-choose-font);
+}
+
 .game-list-view {
   width: 80%;
-  height: 90%;
+  height: 98%;
   overflow: auto;
 }
 
@@ -23,33 +29,34 @@
 .game-score {
   height: 50%;
   width: 80%;
-  background: var(--ui-bg);
+  color: var(--ui-bg);
+  border: 3px solid var(--ui-bg);
   border-radius: var(--rect-radius);
 }
 
-.game-category-junior {
+.game-category {
   height: 50%;
-  width: 80%;
-  background: var(--ui-bg);
+  width: 60%;
+  font-size: 1.5vw;
+  color: var(--ui-bg);
+  border: 3px solid var(--ui-bg);
   border-radius: var(--rect-radius);
 }
 
-.game-category-senior {
-  height: 50%;
-  width: 80%;
-  background: var(--ui-bg);
-  border-radius: var(--rect-radius);
+.vs {
+  color: var(--ui-bg);
 }
 
 .game-edit {
-  color: greenyellow;
-  width: 50%;
+  width: 70%;
   height: 50%;
-  background: grey;
+  color: var(--main-bg);
+  background: var(--ui-bg);
 }
+
 /* ----ADD GAME UI*/
 
-.game-list-element-add {
+/* .game-list-element-add {
   height: 15%;
   width: 100%;
   font-family: var(--main-font-family);
@@ -85,7 +92,7 @@ select {
 }
 option {
   text-align: center;
-}
+} */
 
 /* select::-ms-expand {
   display: none;
