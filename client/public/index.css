@@ -9,16 +9,16 @@
   --input-font: rgb(0, 0, 0);
   --title-choose-font: rgb(158, 21, 85);
   /* font-size */
-  --team-name-font-size: 3vw;
+  --team-name-font-size: 2.2vw;
   --score-font-size: 5vw;
   --time-font-size: 3.5vw;
   --stats-font-size: 2.2vw;
   --player-font-size: 3vw;
   --input-font-size: 3vw;
   --input-undo-font-size: 2.5vw;
-  --log-undo-font-size: 4vw;
+  --log-undo-font-size: 3vw;
   --log-li-font-size: 1.11vw;
-  --game-list-font-size: 2vw;
+  --game-list-font-size: 1.8vw;
   --game-list-add-font-size: 1.5vw;
   --navigation-buttons-font-size: 1.7vw;
   /* background-color */

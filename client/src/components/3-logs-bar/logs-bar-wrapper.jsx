@@ -25,7 +25,7 @@ class Logs extends Component {
                     className="log-undo hv-c"
                     onClick={() => this.handleUndo(el.side, el.history)}
                   >
-                    {"↺"}
+                    ⟲
                   </div>
                 </div>
                 <div className="hv-c">
@@ -64,7 +64,7 @@ class Logs extends Component {
                     className="log-undo hv-c"
                     onClick={() => this.handleUndo(el.side, el.history)}
                   >
-                    {"↺"}
+                    ⟲
                   </div>
                 </div>
               </div>
