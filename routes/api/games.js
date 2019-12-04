@@ -5,7 +5,7 @@ const Game = require("../../models/game");
 
 router.get("/", (req, res) => {
   // console.log("odczyt");
-  Game.find().then(games => res.send(games));
+  Game.find().then(games => res.json(games));
 });
 
 router.post("/", (req, res) => {
