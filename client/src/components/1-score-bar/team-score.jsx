@@ -6,12 +6,7 @@ class Score extends Component {
     if (this.props.side === "left") {
       return (
         <div className="score-left wrapper hv-c">
-          <div
-            className="score-left-view hv-c"
-            onClick={this.props.handleClick}
-          >
-            {this.props.score}
-          </div>
+          <div className="score-left-view hv-c">{this.props.score}</div>
         </div>
       );
     } else if (this.props.side === "right") {

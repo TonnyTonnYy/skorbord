@@ -1651,15 +1651,15 @@ class App extends Component {
     };
   }
 
-  // async componentDidMount() {
-  //   let gameData = await axios.get("/api/games", {});
-  //   let games = gameData.data;
-  //   // console.log(gameData.data);
-  //   this.setState({ games: games });
-  //   // Load async data.
-  //   // Update state with new data.
-  //   // Re-render our component.
-  // }
+  async componentDidMount() {
+    let gameData = await axios.get("/api/games", {});
+    let games = gameData.data;
+    // console.log(gameData.data);
+    this.setState({ games: games });
+    // Load async data.
+    // Update state with new data.
+    // Re-render our component.
+  }
 
   saveChanges = gameId => {
     const game = this.state.games.find(el => el._id === gameId).teams;

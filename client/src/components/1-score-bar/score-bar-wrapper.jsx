@@ -13,11 +13,6 @@ class Scores extends Component {
     this.setState(state => state.period++);
   };
 
-  handleClick = () => {
-    console.log(this.props.id);
-    this.props.saveChanges(this.props.id);
-  };
-
   render() {
     return (
       <React.Fragment>
