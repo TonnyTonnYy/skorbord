@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import Settings  from "../7-settings/settings";
 
 class Clock extends Component {
   state = {
     date: new Date(10000),
-    toggleClock: "start",
-    toggleSettings: "none"
+    toggleClock: "start"
   };
 
   timerFinished = () => {
@@ -38,13 +36,6 @@ class Clock extends Component {
     }
   };
 
-  handleSettingsClick = () =>{
-    if (this.state.toggleSettings === "none") {
-      this.setState({ toggleSettings: "block" });
-    } else if (this.state.toggleSettings === "block") {
-      this.setState({ toggleSettings: "none" });
-    }
-  }
 
   tick() {
     if (
@@ -75,8 +66,6 @@ class Clock extends Component {
     ) {
       return (
         <React.Fragment>
-        <div className="settings-button" onClick={this.handleSettingsClick}>klikaj</div>
-        <div style={`display:${this.state.toggleSettings}`}><Settings/></div>
         <div className="time wrapper hv-c">
           <div
             className="time-view time-minute hv-c"
@@ -91,8 +80,6 @@ class Clock extends Component {
     } else if (this.state.date <= new Date(2000)) {
       return (
         <React.Fragment>
-          <div className="settings-button"  onClick={this.handleSettingsClick}>klikaj</div>
-          <div style={`display:${this.state.toggleSettings}`}><Settings/></div>
           <div className="time wrapper hv-c">
           <div
             className="time-view time-15-seconds hv-c"
@@ -107,9 +94,8 @@ class Clock extends Component {
     } else {
       return (
         <React.Fragment>
-          <div className="settings-button" onClick={this.handleSettingsClick}>klikaj</div>
-          <div style={{display:this.state.toggleSettings}}><Settings/></div>
-<div className="time wrapper hv-c">
+
+          <div className="time wrapper hv-c">
           <div className="time-view hv-c" onClick={this.handleClick}>
             {this.displayDate()}
           </div>

@@ -6,7 +6,6 @@ import Main from "./components/2-main-bar/main-wrapper";
 import Logs from "./components/3-logs-bar/logs-bar-wrapper";
 import BoxScore from "./components/4-box-score/box-score";
 import Choose from "./components/5-add-game/game-list-wrapper";
-import Login from "./components/6-login/login";
 
 class App extends Component {
   constructor(props) {
