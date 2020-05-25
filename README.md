@@ -1,5 +1,5 @@
 # skorbord
-Basketball scoring app made in React.
+Basketball scoring app made in React. (./client)
 
 This web application was made due to a very simple reason : I organise basketball tournaments and decided to start keeping track of stats in a more digital fashion.
 
