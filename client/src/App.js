@@ -13,7 +13,6 @@ class App extends Component {
     super(props);
 
     this.state = {
-      isLoading: true,
       games: [
         {
         "teams": [
@@ -1430,23 +1429,13 @@ class App extends Component {
   render() {
     if (this.state.chooseToggle === true) {
       return (
-        <React.Fragment>
-          {(() => {
-            if (!this.state.logged)
-              return <Login handleLogin={this.handleLogin} />;
-          })()}
-          {(() => {
-            if (this.state.logged)
-              return (
                 <Choose
                   games={this.state.games}
                   toggleChoose={this.toggleChoose}
                   chooseGame={this.chooseGame}
                 />
               );
-          })()}
-        </React.Fragment>
-      );
+
     } else if (this.state.chooseToggle === false) {
       return (
         <div className="container wrapper">
