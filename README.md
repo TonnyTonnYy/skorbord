@@ -25,6 +25,7 @@ What is more inside my project :
 - RWD design aimed only at horizontal orientation
 - Vanilla JS helpers
 - basic backend (mongoDB + expressJS)
+- puropsely weak security ( I had a tight deadline and was not afraid of an attack)
 
 
 # Summary
