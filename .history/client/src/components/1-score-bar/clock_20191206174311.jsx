@@ -5,7 +5,7 @@ class Clock extends Component {
   state = {
     date: new Date(10000),
     toggleClock: "start",
-    toggleSettings: "none"
+    toggleSettings: "block"
   };
 
   timerFinished = () => {

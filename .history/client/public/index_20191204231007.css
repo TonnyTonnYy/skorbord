@@ -65,8 +65,6 @@
   font-family: var(--main-font-family);
 }
 
-/* ------------LOGIN */
-
 .login-wrapper {
   background: var(--main-bg);
 }
@@ -80,31 +78,6 @@
   display: block;
 }
 
-/* -------------SETTINGS */
-
-.settings-wrapper {
-  background: var(--main-bg);
-  position: absolute;
-}
-
-.settings-view {
-  width: 50%;
-  height: 50%;
-}
-
-.settings-input {
-  display: block;
-}
-
-.settings-button{
-  position: absolute;
-  width: 10%;
-  height: 10%;
-}
-
-.settings-form{
-  flex-wrap: nowrap;
-}
 /* HELPERS */
 
 /* reset default behaviour of element */

@@ -139,7 +139,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 0,
@@ -471,7 +471,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
         {
         "category": "senior",
@@ -529,7 +529,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 3,
@@ -601,7 +601,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
         {
         "category": "senior",
@@ -667,7 +667,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 4,
@@ -747,7 +747,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
         {
         "category": "senior",
@@ -943,7 +943,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 6,
@@ -1099,6 +1099,64 @@ class App extends Component {
         "teams": [
         {
         "category": "senior",
+        "name": "Harnoldy",
+        "players": [
+        {
+        "num": 6,
+        "name": "Kacper Jantosiak",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Jasiek Siwek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 2,
+        "name": "Paweł Tęgosz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 5,
+        "name": "Łukasz Mielczarek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 8,
+        "name": "Paweł Kowalski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 13,
+        "name": "Michał Grabjasz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "left"
+        },
+        {
+        "category": "senior",
         "name": "Bursiaki z RDK",
         "players": [
         {
@@ -1152,64 +1210,6 @@ class App extends Component {
         {
         "num": 23,
         "name": "Mateusz Kozłowski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
-        "side": "left"
-        },
-        {
-        "category": "senior",
-        "name": "Harnoldy",
-        "players": [
-        {
-        "num": 6,
-        "name": "Kacper Jantosiak",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 3,
-        "name": "Jasiek Siwek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 2,
-        "name": "Paweł Tęgosz",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 5,
-        "name": "Łukasz Mielczarek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 8,
-        "name": "Paweł Kowalski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 13,
-        "name": "Michał Grabjasz",
         "points": 0,
         "assists": 0,
         "rebounds": 0,

@@ -84,7 +84,7 @@
 
 .settings-wrapper {
   background: var(--main-bg);
-  position: absolute;
+  /* position: absolute; */
 }
 
 .settings-view {
@@ -102,9 +102,6 @@
   height: 10%;
 }
 
-.settings-form{
-  flex-wrap: nowrap;
-}
 /* HELPERS */
 
 /* reset default behaviour of element */

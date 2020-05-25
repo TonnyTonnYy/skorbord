@@ -5,7 +5,7 @@ class Clock extends Component {
   state = {
     date: new Date(10000),
     toggleClock: "start",
-    toggleSettings: "none"
+    toggleSettings: "block"
   };
 
   timerFinished = () => {
@@ -42,7 +42,7 @@ class Clock extends Component {
     if (this.state.toggleSettings === "none") {
       this.setState({ toggleSettings: "block" });
     } else if (this.state.toggleSettings === "block") {
-      this.setState({ toggleSettings: "none" });
+      this.setState({ clock: "none" });
     }
   }
 

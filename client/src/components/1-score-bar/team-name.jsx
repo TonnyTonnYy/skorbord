@@ -7,7 +7,7 @@ class Name extends Component {
       return (
         <div className="name-left wrapper h-c">
           {(() => {
-            if (this.props.fouls >= 4)
+            if (this.props.fouls >= 6)
               return <span className="foul-limit"></span>;
           })()}
           <div className="name-left-view hv-c">{this.props.name}</div>
@@ -18,7 +18,7 @@ class Name extends Component {
         <div className="name-right wrapper h-c">
           <div className="name-right-view hv-c">{this.props.name}</div>
           {(() => {
-            if (this.props.fouls >= 4)
+            if (this.props.fouls >= 6)
               return <span className="foul-limit"></span>;
           })()}
         </div>

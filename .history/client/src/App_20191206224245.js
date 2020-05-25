@@ -19,136 +19,6 @@ class App extends Component {
         "teams": [
         {
         "category": "junior",
-        "name": "PARK",
-        "players": [
-        {
-        "num": 1,
-        "name": "Jakub Szewczyk",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 2,
-        "name": "Wiktor Kruszwic",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 3,
-        "name": "Wiktor Glinkowski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 4,
-        "name": "Jakub Lewandowski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 5,
-        "name": "Wojciech Wierzchowski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 6,
-        "name": "Oskar Frydrych",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 7,
-        "name": "Michał Grzanka",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
-        "side": "left"
-        },
-        {
-        "category": "junior",
-        "name": "FC po Nalewce",
-        "players": [
-        {
-        "num": 2,
-        "name": "Igor Posioł",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 3,
-        "name": "Karol Muzaj",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 4,
-        "name": "Filip Zawiasa",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 9,
-        "name": "Szymon Chmielnicki",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 7,
-        "name": "Hubert Michalski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 8,
-        "name": "Szymon Placek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
-        "side": "right"
-        }
-        ],
-        "id": 0,
-        "category": "J"
-        },
-        {
-        "teams": [
-        {
-        "category": "junior",
         "name": "FC po Nalewce",
         "players": [
         {
@@ -252,6 +122,136 @@ class App extends Component {
         {
         "num": 3,
         "name": "Dawid Borkiewicz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "left"
+        }
+        ],
+        "id": 0,
+        "category": "J"
+        },
+        {
+        "teams": [
+        {
+        "category": "junior",
+        "name": "Btw",
+        "players": [
+        {
+        "num": 7,
+        "name": "Marcel Stasiak",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 5,
+        "name": "Alan Bryłka",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 4,
+        "name": "Szymon Nita",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 6,
+        "name": "Igor Skorupa",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 2,
+        "name": "Jakub Ośródek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Dawid Borkiewicz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "left"
+        },
+        {
+        "category": "junior",
+        "name": "PARK",
+        "players": [
+        {
+        "num": 1,
+        "name": "Jakub Szewczyk",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 2,
+        "name": "Wiktor Kruszwic",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Wiktor Glinkowski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 4,
+        "name": "Jakub Lewandowski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 5,
+        "name": "Wojciech Wierzchowski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 6,
+        "name": "Oskar Frydrych",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 7,
+        "name": "Michał Grzanka",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
@@ -271,6 +271,64 @@ class App extends Component {
         "teams": [
         {
         "category": "junior",
+        "name": "FC po Nalewce",
+        "players": [
+        {
+        "num": 2,
+        "name": "Igor Posioł",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Karol Muzaj",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 4,
+        "name": "Filip Zawiasa",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 9,
+        "name": "Szymon Chmielnicki",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 7,
+        "name": "Hubert Michalski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 8,
+        "name": "Szymon Placek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "left"
+        },
+        {
+        "category": "junior",
         "name": "PARK",
         "players": [
         {
@@ -333,207 +391,11 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
-        },
-        {
-        "category": "junior",
-        "name": "Btw",
-        "players": [
-        {
-        "num": 7,
-        "name": "Marcel Stasiak",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 5,
-        "name": "Alan Bryłka",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 4,
-        "name": "Szymon Nita",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 6,
-        "name": "Igor Skorupa",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 2,
-        "name": "Jakub Ośródek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 3,
-        "name": "Dawid Borkiewicz",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
         "side": "right"
         }
         ],
         "id": 2,
         "category": "J"
-        },
-        {
-        "teams": [
-        {
-        "category": "senior",
-        "name": "Park",
-        "players": [
-        {
-        "num": 9,
-        "name": "Maciej Szewczyk",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 11,
-        "name": "Jan Kurowski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 4,
-        "name": "Robert Wewersowicz",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 15,
-        "name": "Piotr Wlazło",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 35,
-        "name": "Kacper Kałuża",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 30,
-        "name": "Patryk Chramiec",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 5,
-        "name": "Kacper Moczkowski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 19,
-        "name": "Antoni Cieślak",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
-        "side": "left"
-        },
-        {
-        "category": "senior",
-        "name": "Harnoldy",
-        "players": [
-        {
-        "num": 6,
-        "name": "Kacper Jantosiak",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 3,
-        "name": "Jasiek Siwek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 2,
-        "name": "Paweł Tęgosz",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 5,
-        "name": "Łukasz Mielczarek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 8,
-        "name": "Paweł Kowalski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 13,
-        "name": "Michał Grabjasz",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
-        "side": "right"
-        }
-        ],
-        "id": 3,
-        "category": "S"
         },
         {
         "teams": [
@@ -601,8 +463,72 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
+        {
+        "category": "senior",
+        "name": "Harnoldy",
+        "players": [
+        {
+        "num": 6,
+        "name": "Kacper Jantosiak",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Jasiek Siwek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 2,
+        "name": "Paweł Tęgosz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 5,
+        "name": "Łukasz Mielczarek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 8,
+        "name": "Paweł Kowalski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 13,
+        "name": "Michał Grabjasz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "left"
+        }
+        ],
+        "id": 3,
+        "category": "S"
+        },
+        {
+        "teams": [
         {
         "category": "senior",
         "name": "Murem za Bonusem",
@@ -668,13 +594,7 @@ class App extends Component {
         "fouls": 0,
         "history": [],
         "side": "right"
-        }
-        ],
-        "id": 4,
-        "category": "S"
         },
-        {
-        "teams": [
         {
         "category": "senior",
         "name": "Park",
@@ -748,7 +668,13 @@ class App extends Component {
         "fouls": 0,
         "history": [],
         "side": "left"
+        }
+        ],
+        "id": 4,
+        "category": "S"
         },
+        {
+        "teams": [
         {
         "category": "senior",
         "name": "Bursiaki z RDK",
@@ -804,6 +730,72 @@ class App extends Component {
         {
         "num": 23,
         "name": "Mateusz Kozłowski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "right"
+        },
+        {
+        "category": "senior",
+        "name": "Murem za Bonusem",
+        "players": [
+        {
+        "num": 2,
+        "name": "Kacper Murawa",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Szymon Pietrzak",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 13,
+        "name": "Radek Wrzosek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 6,
+        "name": "Mikołaj Złoty",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 8,
+        "name": "Eryk Niewiadomski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 9,
+        "name": "Kamil Józefczyk",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 7,
+        "name": "Szymon Róg",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
@@ -881,131 +873,67 @@ class App extends Component {
         },
         {
         "category": "senior",
-        "name": "Murem za Bonusem",
+        "name": "Park",
         "players": [
         {
-        "num": 2,
-        "name": "Kacper Murawa",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 3,
-        "name": "Szymon Pietrzak",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 13,
-        "name": "Radek Wrzosek",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 6,
-        "name": "Mikołaj Złoty",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
-        "num": 8,
-        "name": "Eryk Niewiadomski",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        },
-        {
         "num": 9,
-        "name": "Kamil Józefczyk",
+        "name": "Maciej Szewczyk",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 7,
-        "name": "Szymon Róg",
-        "points": 0,
-        "assists": 0,
-        "rebounds": 0,
-        "fouls": 0
-        }
-        ],
-        "score": 0,
-        "fouls": 0,
-        "history": [],
-        "side": "right"
-        }
-        ],
-        "id": 6,
-        "category": "S"
-        },
-        {
-        "teams": [
-        {
-        "category": "senior",
-        "name": "Murem za Bonusem",
-        "players": [
-        {
-        "num": 2,
-        "name": "Kacper Murawa",
+        "num": 11,
+        "name": "Jan Kurowski",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 3,
-        "name": "Szymon Pietrzak",
+        "num": 4,
+        "name": "Robert Wewersowicz",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 13,
-        "name": "Radek Wrzosek",
+        "num": 15,
+        "name": "Piotr Wlazło",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 6,
-        "name": "Mikołaj Złoty",
+        "num": 35,
+        "name": "Kacper Kałuża",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 8,
-        "name": "Eryk Niewiadomski",
+        "num": 30,
+        "name": "Patryk Chramiec",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 9,
-        "name": "Kamil Józefczyk",
+        "num": 5,
+        "name": "Kacper Moczkowski",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
         "fouls": 0
         },
         {
-        "num": 7,
-        "name": "Szymon Róg",
+        "num": 19,
+        "name": "Antoni Cieślak",
         "points": 0,
         "assists": 0,
         "rebounds": 0,
@@ -1016,7 +944,13 @@ class App extends Component {
         "fouls": 0,
         "history": [],
         "side": "left"
+        }
+        ],
+        "id": 6,
+        "category": "S"
         },
+        {
+        "teams": [
         {
         "category": "senior",
         "name": "Park",
@@ -1089,14 +1023,8 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
-        }
-        ],
-        "id": 7,
-        "category": "S"
+        "side": "left"
         },
-        {
-        "teams": [
         {
         "category": "senior",
         "name": "Bursiaki z RDK",
@@ -1161,8 +1089,14 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
+        }
+        ],
+        "id": 7,
+        "category": "S"
         },
+        {
+        "teams": [
         {
         "category": "senior",
         "name": "Harnoldy",
@@ -1210,6 +1144,72 @@ class App extends Component {
         {
         "num": 13,
         "name": "Michał Grabjasz",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        }
+        ],
+        "score": 0,
+        "fouls": 0,
+        "history": [],
+        "side": "left"
+        },
+        {
+        "category": "senior",
+        "name": "Murem za Bonusem",
+        "players": [
+        {
+        "num": 2,
+        "name": "Kacper Murawa",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 3,
+        "name": "Szymon Pietrzak",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 13,
+        "name": "Radek Wrzosek",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 6,
+        "name": "Mikołaj Złoty",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 8,
+        "name": "Eryk Niewiadomski",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 9,
+        "name": "Kamil Józefczyk",
+        "points": 0,
+        "assists": 0,
+        "rebounds": 0,
+        "fouls": 0
+        },
+        {
+        "num": 7,
+        "name": "Szymon Róg",
         "points": 0,
         "assists": 0,
         "rebounds": 0,

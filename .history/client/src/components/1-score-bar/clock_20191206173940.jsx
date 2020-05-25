@@ -5,7 +5,7 @@ class Clock extends Component {
   state = {
     date: new Date(10000),
     toggleClock: "start",
-    toggleSettings: "none"
+    toggleSettings: "block"
   };
 
   timerFinished = () => {
@@ -42,7 +42,7 @@ class Clock extends Component {
     if (this.state.toggleSettings === "none") {
       this.setState({ toggleSettings: "block" });
     } else if (this.state.toggleSettings === "block") {
-      this.setState({ toggleSettings: "none" });
+      this.setState({ clock: "none" });
     }
   }
 
@@ -75,7 +75,7 @@ class Clock extends Component {
     ) {
       return (
         <React.Fragment>
-        <div className="settings-button" onClick={this.handleSettingsClick}>klikaj</div>
+        <div className="settings-button">klikaj</div>
         <div style={`display:${this.state.toggleSettings}`}><Settings/></div>
         <div className="time wrapper hv-c">
           <div
@@ -91,7 +91,6 @@ class Clock extends Component {
     } else if (this.state.date <= new Date(2000)) {
       return (
         <React.Fragment>
-          <div className="settings-button"  onClick={this.handleSettingsClick}>klikaj</div>
           <div style={`display:${this.state.toggleSettings}`}><Settings/></div>
           <div className="time wrapper hv-c">
           <div
@@ -107,7 +106,6 @@ class Clock extends Component {
     } else {
       return (
         <React.Fragment>
-          <div className="settings-button" onClick={this.handleSettingsClick}>klikaj</div>
           <div style={{display:this.state.toggleSettings}}><Settings/></div>
 <div className="time wrapper hv-c">
           <div className="time-view hv-c" onClick={this.handleClick}>

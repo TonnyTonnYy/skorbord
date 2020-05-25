@@ -84,7 +84,6 @@
 
 .settings-wrapper {
   background: var(--main-bg);
-  position: absolute;
 }
 
 .settings-view {
@@ -96,15 +95,7 @@
   display: block;
 }
 
-.settings-button{
-  position: absolute;
-  width: 10%;
-  height: 10%;
-}
 
-.settings-form{
-  flex-wrap: nowrap;
-}
 /* HELPERS */
 
 /* reset default behaviour of element */

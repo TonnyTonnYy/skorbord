@@ -139,7 +139,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 0,
@@ -471,7 +471,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
         {
         "category": "senior",
@@ -667,7 +667,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 4,
@@ -747,7 +747,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
         {
         "category": "senior",
@@ -813,7 +813,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 5,
@@ -877,7 +877,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "left"
+        "side": "right"
         },
         {
         "category": "senior",
@@ -943,7 +943,7 @@ class App extends Component {
         "score": 0,
         "fouls": 0,
         "history": [],
-        "side": "right"
+        "side": "left"
         }
         ],
         "id": 6,
